@@ -1,6 +1,6 @@
 import Head from 'next/head';
 import Card from './Card';
-import UserData from './UserData';
+import UserData from '../public/UserData';
 
 const Fcard = (val) => (
   <Card 
