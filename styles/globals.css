@@ -1,26 +1,89 @@
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-* {
+*{
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background: #d2dbdd;
+}
+.Heading {
+  background: #fff;
+  color: #868686;
+  text-transform: uppercase;
+  font-size: 1.5rem;
+  text-align: center;
+  padding: 30px 0px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  text-align: center;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
+.Cards {
+  width : 100%;
+  height: auto;
+}
+.Card {
+  margin: 6%;
+  transition: all 0.4s cubic-bezier(0.175, 0.885, 1 , 0);
+  background-color:#fff;
+  width:17.25%;
+  border-radius:12px;
+  box-shadow: 0px 13px 10px -7px rgba(0,0,0,1);
+  float: left;
+}
+
+.Card:hover{
+  transform:0px 30px 18px -8px rgba(0,0,0,1);
+  transform: scale(1.05,1.05);
+}
+
+.Cards_img {
+  width: 100%;
+  height: 250px;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.Card_info {
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  background-color: #fff;
+  padding: 16px 24px 24px 24px;
+}
+
+.Cards_Cat{
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 13px;
+  font-weight: 500;
+  color: #868686;
+  background-color:#fff;
+}
+
+.Card_tittle {
+  margin-top: 5px;
+  margin-bottom: 10px;
+  text-transform: capitalize;
+  background: #fff;
+}
+
+button {
+  padding: 5px 8px;
+  text-transform: uppercase;
+  font-size: 13px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  color: #868686;
+  background-color: #fff;
+  outline: none;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+@media (max-width:786px){
+  .Card{
+     float: none;
+     margin: 5%;
+     width: 70%;
+     margin: 15%;
   }
 }
