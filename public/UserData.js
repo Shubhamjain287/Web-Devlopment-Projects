@@ -11,6 +11,12 @@ const UserData = [
       Description : "Coding Enthusiaster",
       imgsrc : "https://avatars.githubusercontent.com/u/99660135?s=400&u=d55814ed14f6ba0c22374270bb860df3b01fe610&v=4",
       github : "https://github.com/vinit2926"
+   },{
+      id : 3,
+      Name : "Adarsh pal",
+      Description : "open source contribution",
+      imgsrc : "https://avatars.githubusercontent.com/u/103566736?s=400&u=4a9f587beed49036903d14254e2ec84f9fa3d78f&v=4",
+      github : "https://github.com/adpal2003"
    }
 ];
 
