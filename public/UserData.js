@@ -23,6 +23,12 @@ const UserData = [
       Description : "problem solver",
       imgsrc : "https://avatars.githubusercontent.com/u/107807844?s=96&v=4",
       github : "https://github.com/Shubh011"
+   },{
+      id : 5,
+      Name : "Haider Ali",
+      Description : "Beta MLSA, GDSC Content Lead, Open Source Contributor",
+      imgsrc : "https://avatars.githubusercontent.com/u/78718236?s=40&v=4",
+      github : "https://github.com/haiderali920687"
    }
 ];
 
