@@ -46,7 +46,7 @@ const UserData = [
    ,{
       id : 8,
       Name : "Vivekanand ojha",
-      Description : "Developer's father",
+      Description : "Developer's personality",
       imgsrc : "",
       github : "https://github.com/Licks-create"
    }
