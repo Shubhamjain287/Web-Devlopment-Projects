@@ -43,6 +43,13 @@ const UserData = [
       imgsrc : "",
       github : "https://github.com/YashwardhanSharma"
    }
+   ,{
+      id : 8,
+      Name : "Vivekanand ojha",
+      Description : "Developer's father",
+      imgsrc : "",
+      github : "https://github.com/Licks-create"
+   }
 ];
 
 export default UserData;
