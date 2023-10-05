@@ -42,6 +42,13 @@ const UserData = [
       Description : "Kadak Coder | Logical | B Lover",
       imgsrc : "",
       github : "https://github.com/YashwardhanSharma"
+   },
+   {
+      id : 8,
+      Name : "Ankit Jha",
+      Description : "Web Developer",
+      imgsrc : "https://avatars.githubusercontent.com/u/91364014?v=4",
+      github : "https://github.com/ankitjhagithub21"
    }
 ];
 
