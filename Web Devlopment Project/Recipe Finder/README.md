@@ -1,7 +1,5 @@
 # Recipe Finder App
 
-![Recipe Finder](app-screenshot.png)
-
 A responsive recipe finder app built using HTML, CSS, and JavaScript, which utilizes TheMealDB API to search for and display recipes. The app allows users to search for recipes by entering a search term and displays matching recipes with their images and instructions.
 
 ## Features
@@ -13,6 +11,6 @@ A responsive recipe finder app built using HTML, CSS, and JavaScript, which util
 
 ## Demo
 
-You can see a live demo of the app [here](#).
+You can see a live demo of the app [here](https://recipe-finder-23.netlify.app/).
 
 
