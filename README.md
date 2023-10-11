@@ -68,7 +68,7 @@ git push origin branch-name
    }
 ```
 
-### 3. If You want to improve that webiste of [List of Contributors](https://web-devlopment-projects-iw9kyul5k-shubhamjain287.vercel.app/) You can also Contribute to that !!
+### 3. If You want to improve that website of [List of Contributors](https://web-devlopment-projects-iw9kyul5k-shubhamjain287.vercel.app/) You can also Contribute to that !!
 
 
 ## BONUS!
