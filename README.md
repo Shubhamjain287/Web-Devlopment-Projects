@@ -20,7 +20,7 @@ Here are 3 quick and painless ways to contribute to this project:
 
 - Display your name and profile in the list of contributors by adding your name to the `public/userdata` file !!
 - Add Your Web Development Project in `Web Devlopment` Folder !!
-- And If You want to improve that webiste of [List of Contributors](https://web-devlopment-projects-iw9kyul5k-shubhamjain287.vercel.app/) , You can also Contribute to that !!
+- And If You want to improve that website of [List of Contributors](https://web-devlopment-projects-iw9kyul5k-shubhamjain287.vercel.app/) , You can also Contribute to that !!
 
 Choose 1 or all , and make a pull request for your work and wait for it to be merged!
 
@@ -68,7 +68,7 @@ git push origin branch-name
    }
 ```
 
-### 3. If You want to improve that webiste of [List of Contributors](https://web-devlopment-projects-iw9kyul5k-shubhamjain287.vercel.app/) You can also Contribute to that !!
+### 3. If You want to improve that website of [List of Contributors](https://web-devlopment-projects-iw9kyul5k-shubhamjain287.vercel.app/) You can also Contribute to that !!
 
 
 ## BONUS!
