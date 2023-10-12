@@ -2,6 +2,9 @@
 
 This is a basic web application that allows users to translate text from one language to another. It's built using HTML, CSS, and JavaScript and utilizes the MyMemory Translation API for language translation.
 
+![image](https://github.com/ankitjhagithub21/Web-Devlopment-Projects/assets/91364014/700c73af-de68-44a5-9ab3-53c3147827c9)
+
+
 ## Features
 
 - Select the source and target languages for translation.
@@ -26,6 +29,9 @@ This is a basic web application that allows users to translate text from one lan
 ## Languages
 
 You can select from a variety of languages for translation. The current options include English, Hindi, and Urdu. You can easily expand the list by adding more languages to the dropdown menus in the HTML.
+
+## Live On
+('''https://language-translator-23.netlify.app/''')
 
 ## Credits
 
