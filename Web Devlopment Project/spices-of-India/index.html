@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=\, initial-scale=1.0" >
+    <title>The Spice Pit</title>
+    <link rel="stylesheet" href="./style/index.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Serif:opsz,wght@8..144,300&display=swap" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+</head>
+<body>
+    <div class="header">
+        <a href="#Home"  id="logo"><img src="./Images/logo.png" height="70" width="100" alt="logo"></a>
+    <nav class="navbar">
+        <a href="#Home">Home</a>
+        <a href="#Products">Products</a>
+        <a href="#About">About</a>
+        <a href="#Contact">Contact</a>
+
+    </nav>
+    <div class="icons">
+        <button class="notifiCount">0</button>
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" id="cart-btn" class=" bi bi-cart" viewBox="0 0 16 16">
+            <path d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM3.102 4l1.313 7h8.17l1.313-7H3.102zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 1 0 2 1 1 0 0 1 0-2zm7 0a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+          </svg>
+          <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" id="menu-btn" class="bi bi-list" viewBox="0 0 16 16">
+            <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+          </svg>
+          
+        
+    <div class="search-bar">
+            <input type="search" id="search-box" placeholder="search here">
+            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class=" search bi bi-search" viewBox="0 0 16 16">
+              <path d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"/>
+            </svg>
+         
+    </div>
+
+</div>
+    </div>
+
+
+<div class="home-section" id="Home">
+    <div class=" main-tag">   
+       <h1 > Sensational Spices: </h1>
+        <p class="sub-tag">Adding Zest to Your Everyday.Get fresh spices and make your life spicy</p> 
+       
+    </div>
+</div>
+
+
+<section class="products-details" id="Products">
+  <h1 class="heading">our <span>products</span></h1>
+  <div class="box-container">
+  <div class="box">
+            <img src="./Images/Cardamom.jpg" alt="">
+            <h3>Cardamom</h3>
+            <div class="price">$9.99 <span>15.00</span></div>
+            <button type="button" class="btn btn-outline-danger" onclick="addToCart('Cardamom',9.99,'Images/Cardamom.jpg')">Add to Cart</button>
+  </div>
+  <div class="box">
+    <img src="./Images/cinnamon.avif" alt="">
+    <h3>Cinnamon</h3>
+    <div class="price">$8.67 <span>11.00</span></div>
+    <button type="button" class="btn btn-outline-danger" onclick="addToCart('Cinnamon',8.67,'Images/cinnamon.avif')">Add to Cart</button>
+</div>
+<div class="box">
+  <img src="./Images/ginger.jpeg" alt="">
+  <h3>Ginger</h3>
+  <div class="price">$10.89 <span>14.99</span></div>
+  <button type="button" class="btn btn-outline-danger" onclick="addToCart('Ginger',10.89,'Images/ginger.jpeg')">Add to Cart</button>
+</div>
+<div class="box">
+  <img src="./Images/pepper.avif" alt="">
+  <h3>Pepper</h3>
+  <div class="price">$15.26 <span>20.00</span></div>
+  <button type="button" class="btn btn-outline-danger" onclick="addToCart('Pepper',15.26,'Images/pepper.avif')">Add to Cart</button>
+</div>
+<div class="box">
+  <img src="./Images/Red-Chilli-Whole.jpg" alt="">
+  <h3>Red Chili</h3>
+  <div class="price">$14.56 <span>18.89</span></div>
+  <button type="button" class="btn btn-outline-danger" onclick="addToCart('Red Chili',14.56,'Images/Red-Chilli-Whole.jpg')">Add to Cart</button>
+</div>
+<div class="box">
+  <img src="./Images/tumeric.jpg" alt="">
+  <h3>Tumeric</h3>
+  <div class="price">$19.89 <span>25.00</span></div>
+  <button type="button" class="btn btn-outline-danger" onclick="addToCart('Tumeric',19.89,'Images/tumeric.jpg')">Add to Cart</button> 
+</div>
+</div>
+</section>
+
+<section class="about" id="About"> 
+  <h1 class="heading">About <span>us</span></h1>
+  <div class="container row">
+    <div class="col-6"> <img src="./Images/chiili-back.jpg" alt=""></div>
+  <div class="content col-6">
+        <h3>Discover the Essence of India Through Spices</h3>
+        <p> Our mission is to share the rich tapestry of Indian flavors with the world. 
+          We take pride in our commitment to quality. From the fields to your kitchen,
+           our spices undergo rigorous testing to ensure purity and freshness
+           Whether you are a seasoned chef or an adventurous home cook, join us in celebrating the magic of Indian spices. Discover, savor, 
+           and share the unique flavors that make Spices of India a testament to the culinary legacy of this extraordinary land.
+        
+        </p>
+  </div>
+</div>
+</section>
+
+<section class="contact-us" id="Contact">
+   <h1 class="heading"> Contact <span>us</span></h1>
+   <div class="container row "> 
+   <div class="map col-lg-6 col-md-6 col-sm-12 py-sm-5 px-6">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15716.72110376422!2d76.31314!3d10.001963!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b080d1940000001%3A0x829f3f6937c3b4b3!2sSpices%20Board!5e0!3m2!1sen!2sus!4v1698655136638!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+   </div>
+   <div class="user-details col-lg-6 col-md-4 col-sm-12">
+       <div class="inputbox">
+         <span class="fas fa-user"></span>
+         <input type="text" id="name-box" placeholder="Enter name">
+       </div>
+       <div class="inputbox">
+        <span class="fas fa-envelope"></span>
+        <input type="text" id="email-box" placeholder="Enter email">
+      </div>
+      <div class="inputbox">
+        <span class="fas fa-user"></span>
+        <input type="text" id="number-box" placeholder="Enter number">
+      </div>
+      <button type="button" id="contact-btn" class=" btn btn-primary">Contact</button>
+   </div>
+  </div>
+</section>
+<div id="cart">
+      <p class="cart-heading">Shopping Cart</p>
+      <ul id="cart-items">
+      </ul>
+
+      <p class="total">Total : <span id="dollar"> $ </span><span id="cart-total">0.00</span>
+      </p>
+      <button type="button" id="checkout" class="btn btn-dark">Checkout</button>
+</div>
+<script src="./js/index.js" rel="UTF-8"></script>
+</body>
+</html>
+
