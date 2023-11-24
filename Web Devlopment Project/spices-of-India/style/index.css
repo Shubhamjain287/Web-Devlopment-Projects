@@ -1,0 +1,354 @@
+  @import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    
+   
+     margin: 0px;
+     padding: 0px;
+     box-sizing: border-box;
+
+}
+:root{
+    --main-color:red;
+}
+.icons{
+    color: white;
+}
+#menu-btn{
+    display: none;
+}
+.header
+{
+    background-color: rgb(34,34,34);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: var(--border);
+   top: 0px;
+   left: 0;right: 0;
+   z-index: 1000;
+   position: fixed;
+   max-width: 198vh;
+   
+}
+.header a img{
+     height: 4rem;
+}
+.header .navbar a{
+    margin:0 1 rem;
+   font-size: 1.2rem;
+   color: #fff;
+   text-decoration: none;
+   padding: .5rem;
+   font-family: 'Roboto Serif', serif;
+   
+}
+.header .navbar a:hover{
+    color: var(--main-color);
+    border-bottom: .1rem solid var(--main-color);
+    padding-bottom:.5rem ;
+}
+.header .icons svg{
+    color: #fff;
+    cursor: pointer;
+    font-size: 2.5rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    position: relative;
+    right: 30px;
+    
+}
+.header .icons svg:hover{
+    color: var(--main-color);
+    
+}
+.header .search-bar input   {
+    position:absolute;
+    top:25%;
+    right: 8%;
+    
+    height: 2rem;
+    padding: 10px;
+  
+    
+}
+.header .search-bar .search{
+    position: absolute;
+    top: 15%;
+    right: 6%;
+    font-weight: bold;
+}
+
+
+.header .search-bar label{
+    cursor: pointer;
+    font-size: 2.2rem;
+    margin-right: 1.5rem;
+    color:var(--black);
+}
+.home-section {
+    background-image: url("../Images/spice-back.jpg");
+    opacity: 0.8;
+    height: 100vh;
+    max-width: 198vh;
+    
+}
+.home-section .main-tag{
+    color:black;
+    font-weight: bold;
+    font-size: 20px ;
+    font-family: 'Roboto', sans-serif;
+    position: absolute;
+    top: 50%;
+}
+.home-section .main-tag h1{
+    justify-content:left;
+}
+.home-section .main-tag .sub-tag{
+    max-width: 800px;
+    font-size: 1.5  rem;
+}
+.notifiCount{
+    background-color:red;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    
+}
+
+.products-details{
+    background-color: rgb(0,0,0);
+    padding-top: 5rem;
+    /* width: 195vh; */
+}
+
+.heading
+{
+    text-align: center;
+    justify-content: center;
+    color: #fff;
+    text-transform: uppercase;
+    padding-bottom: 3.5rem;
+    font-size: 4rem;
+}
+.heading span{
+    color: var(--main-color);
+    text-transform: uppercase;
+}
+
+.products-details .box-container .box img{
+    height:10rem ;
+    width: 10rem;
+    border-radius: 50%;
+}
+
+.products-details .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(30rem,1fr));
+    gap: 1.5rem;
+}
+.products-details .box-container .box{
+    padding: 5rem;
+    text-align: center;
+    border:var(--border);
+    border-radius: 10%;
+    box-shadow: #ddd;
+}
+.products-details .box-container .box h3{
+    color: #fff;
+    padding: 1rem 0;
+    font-size: 2rem;
+}
+.products-details .box-container .box .price{
+    color: #fff;
+    padding: .5rem 0;
+    font-size: 2.5rem;
+}
+.products-details .box-container .box .price span{
+    font-size: 1.5rem;
+    text-decoration: line-through;
+}
+.about{
+    padding-top: 5rem;
+   background-color: black;
+   min-height: 100vh;
+     
+}
+
+.about .container .content h3{
+    color: red;
+    display: flex;
+}
+.about .container .content p{
+    color: white;
+    display: flex;
+    justify-self: left;
+    font-size: 2rem;
+    font-family: 'Italianno', cursive;
+    
+}
+
+.contact-us{
+    padding-top: 3.5rem;
+    background-image: url("../Images/cntct.jpg");
+    max-width: 195vh;
+    min-height: 100vh;
+}
+
+.contact-us .container .map iframe{
+    
+    height:20rem ;
+    width:20rem ;
+    position: relative;
+    left: 10rem;
+}
+
+
+.user-details {
+    background-color: #f4f4f4;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-details .inputbox {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.user-details .inputbox input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    outline: none;
+}
+
+.user-details .inputbox span {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    left: 15px;
+    color: #777;
+}
+
+#name-box,
+#email-box,
+#number-box {
+    background-color: #fff;
+}
+
+#contact-btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+#contact-btn:hover {
+    background-color: #2980b9;
+}
+
+
+
+
+#cart {
+    width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: none;
+    position: fixed;
+    right: 0%;
+    top: 2.8rem;
+}
+
+.cart-heading {
+    font-size: 1.5em;
+    color: #333;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+#cart-items {
+    list-style-type: none;
+    padding: 0;
+}
+
+#cart-items li {
+    border-bottom: 1px solid #ddd;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+#cart-items li:last-child {
+    border-bottom: none;
+}
+
+.total {
+    font-size: 0.8rem;
+    font-weight: bold;
+    text-align: right;
+    margin-top: 20px;
+    color: black;
+}
+
+#dollar,#cart-total {
+    color:black ; 
+    font-size: 1.5rem;
+}
+
+ #cart #checkout{
+   width: 100%;
+
+ 
+}
+
+
+
+@media (max-width:991px)
+{
+    .header .search-bar input{
+        position: absolute;
+        top: 15%;
+        right: 40%;
+    }
+    .header .search-bar .search{
+        position: absolute;
+        top: 10%;
+        right: 37%;
+    }
+    
+    #menu-btn{
+        display: inline-block;
+        
+        }
+      .header .navbar{
+        position: absolute;
+        top: 100%;right: 0%;
+        background:black;
+        width: 12rem;
+        display:none;
+       
+      }
+     
+      .header .navbar a{
+        color: white;
+        display: block;
+        margin: 1.5rem;
+        padding: 1rem;
+        font-size: 2rem;
+      }
+
+        
+    }
