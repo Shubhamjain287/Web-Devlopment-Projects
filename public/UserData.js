@@ -57,6 +57,13 @@ const UserData = [
       imgsrc : "https://avatars.githubusercontent.com/u/60517862?v=4",
       github : "https://github.com/NikhilTaneja98"
    }
+   ,{
+      id : 8,
+      Name : "Vivekanand ojha",
+      Description : "Developer's personality #Web3 ",
+      imgsrc : "",
+      github : "https://github.com/Licks-create"
+   }
 ];
 
 export default UserData;
